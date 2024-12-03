@@ -25,7 +25,9 @@ struct QuizBbombeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            SettingsView()
+//            ContentView()
+            HilfsView() 
         }
         .modelContainer(sharedModelContainer)
     }
